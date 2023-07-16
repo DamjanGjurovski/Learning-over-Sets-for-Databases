@@ -1,0 +1,9 @@
+basic_functionality_tester/*
+__pycache__/*
+competitors_code/__pycache__/*
+edbt_boundary_maps/*
+edbt_error_maps/*
+edbt_models/*
+edbt_statistics/*
+edbt_statistics_as_files/*
+minmax/*
