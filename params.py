@@ -119,7 +119,7 @@ def params():
     sv_d = 0
     ns = 2
     if args.compression:
-        model_name += "_compression_" + str(ns)
+        model_name += "_compr_" + str(ns)
 
         if args.custom_svd > 0:
             sv_d = args.custom_svd
