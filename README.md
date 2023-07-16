@@ -84,7 +84,7 @@ As the encode, decode, middle neurons a setting of 8 and an embedding 4. The out
 Note that for execution of the model, unlike for cardinality estimation, outlier removal is needed.
 For the outlier removal we use the parameters:
 ```bash
---indexing --startremoval 40 --stepremoval 50 --boundaryremoval X --epochs 50
+--indexing --outlierremoval --startremoval 40 --stepremoval 50 --boundaryremoval X --epochs 50
 ```
 where X is 90 for RW-200k and RW-3M, 70 for SD and 60 for Tweets/hashtags3.
 
