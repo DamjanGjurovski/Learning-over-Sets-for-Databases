@@ -36,18 +36,18 @@ Example execution:
 python set_boundaries.py --training --epochs 100
 # example training of the model with compression
 python set_boundaries.py --training --compression --epochs 100
-# example training of the model without compression and outlier removal
+# example training of the model without compression and with outlier removal
 python set_boundaries.py --training --outlierremoval --startremoval 90 --stepremoval 40 --boundaryremoval 90 --epochs 100
-# example training of the model with compression and outlier removal
+# example training of the model with compression and with outlier removal
 python set_boundaries.py --training --compression --outlierremoval --startremoval 90 --stepremoval 40 --boundaryremoval 90 --epochs 100
 # testing of the model without compression
 python set_boundaries.py
 # testing of the model with compression
 python set_boundaries.py --compression
-# testing of the model without compression and outlier removal
-python set_boundaries.py --outlierremoval
-# testing of the model with compression and outlier removal
-python set_boundaries.py --compression --outlierremoval
+# example testing of the model without compression and with outlier removal
+python set_boundaries.py --outlierremoval --startremoval 90 --stepremoval 40 --boundaryremoval 90 --epochs 100
+# example testing of the model with compression and with outlier removal
+python set_boundaries.py --compression --outlierremoval --startremoval 90 --stepremoval 40 --boundaryremoval 90 --epochs 100
 ```
 
 To recreate the experiments in the paper for cardinality estimation, follow the following instructions:
@@ -64,18 +64,18 @@ Example execution:
 python set_boundaries.py --indexing --training --epochs 100
 # example training of the model with compression
 python set_boundaries.py --indexing --training --compression --epochs 100
-# example training of the model without compression and outlier removal
+# example training of the model without compression and with outlier removal
 python set_boundaries.py --indexing --training --outlierremoval --startremoval 90 --stepremoval 40 --boundaryremoval 90 --epochs 100
-# example training of the model with compression and outlier removal
+# example training of the model with compression and with outlier removal
 python set_boundaries.py --indexing --training --compression --outlierremoval --startremoval 90 --stepremoval 40 --boundaryremoval 90 --epochs 100
 # testing of the model without compression
 python set_boundaries.py --indexing
 # testing of the model with compression
 python set_boundaries.py --indexing --compression
-# testing of the model without compression and outlier removal
-python set_boundaries.py --indexing --outlierremoval
-# testing of the model with compression and outlier removal
-python set_boundaries.py --indexing --compression --outlierremoval
+# example testing of the model without compression and with outlier removal
+python set_boundaries.py --indexing --outlierremoval --startremoval 90 --stepremoval 40 --boundaryremoval 90 --epochs 100
+# example testing of the model with compression and with outlier removal
+python set_boundaries.py --indexing --compression --outlierremoval --startremoval 90 --stepremoval 40 --boundaryremoval 90 --epochs 100
 ```
 
 To recreate the experiments in the paper for cardinality estimation, follow the following instructions:
