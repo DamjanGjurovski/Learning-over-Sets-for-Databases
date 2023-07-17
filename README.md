@@ -119,3 +119,6 @@ python set_bf.py --compression
 To recreate the experiments in the paper for cardinality estimation, follow the following instructions:
 As the encode, decode, middle neurons a setting of 8 and an embedding 2.
 
+## Datasets
+The other datasets used in the paper can be downloaded on the following [link](https://seafile.rlp.net/d/32104e3f4e4b4fe98173/).
+To use them, create the same folder structure as the one for the example dataset in this repository. 
