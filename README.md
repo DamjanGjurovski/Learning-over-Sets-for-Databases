@@ -1,5 +1,19 @@
 # Learning over Sets for Databases 
 This repo contains the code for the paper, "Learning over Sets for Databases".  
+If you compare with this code, or you use it in your research, please cite:
+
+```
+@inproceedings{DBLP:conf/edbt/DavitkovaG024,
+  author    = {Angjela Davitkova and
+               Damjan Gjurovski and
+               Sebastian Michel},
+  title     = {Learning over Sets for Databases},
+  booktitle = {{EDBT}},
+  pages     = {},
+  publisher = {OpenProceedings.org},
+  year      = {2024}
+}
+```
 
 ## Setting up Conda Environment
 
@@ -104,3 +118,4 @@ python set_bf.py --compression
 
 To recreate the experiments in the paper for cardinality estimation, follow the following instructions:
 As the encode, decode, middle neurons a setting of 8 and an embedding 2.
+
