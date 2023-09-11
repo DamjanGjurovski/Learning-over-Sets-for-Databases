@@ -3,15 +3,15 @@ This repo contains the code for the paper, "Learning over Sets for Databases".
 If you compare with this code, or you use it in your research, please cite:
 
 ```
-@inproceedings{DBLP:conf/edbt/DavitkovaG024,
-  author    = {Angjela Davitkova and
-               Damjan Gjurovski and
-               Sebastian Michel},
-  title     = {Learning over Sets for Databases},
-  booktitle = {{EDBT}},
-  pages     = {},
-  publisher = {OpenProceedings.org},
-  year      = {2024}
+@inproceedings{DBLP:conf/edbt/DavitkovaGM24,
+  author       = {Angjela Davitkova and
+                  Damjan Gjurovski and
+                  Sebastian Michel},
+  title        = {Learning over Sets for Databases},
+  booktitle    = {{EDBT}},
+  pages        = {68--80},
+  publisher    = {OpenProceedings.org},
+  year         = {2024}
 }
 ```
 
